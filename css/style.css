@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;800&display=swap');
+body{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 16px;
+	color: #888
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+header{
+	background-color: #fff;
+}
+
+#hero-title{
+	text-align: center;
+	background-image:url("../img/services-title-image.jpg");
+	background-size: cover;
+	background-position: top center;
+	color: #fff;
+}
+
+#hero-title h1{
+	font-size: 70px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-weight: 600;
+	color: #fff;
+	
+}
+
+.overlay{
+	background-color:rgba(0,0,0,0.65);
+	padding: 160px 0;
+}
+
+.section{
+	padding: 60px 0;
+}
+
+
+
+#icons p{
+	background-color: #fff;	
+	padding: 25px 30px;
+	font-size: 18px;
+	border-radius: 5px;
+	text-align: center;
+}
+#icons h4{
+	font-size: 16px;
+	color: var(--color-negro);
+	text-align: center;
+	
+}
+
+#icons h4{
+	padding-left: 30px;
+	
+}
+#icons i{
+	text-align: center;
+	font-size: 55px;
+	color: #e0e0e0; 
+}
+
+
+#info{
+	background-color:#f7f7f7;
+
+}
+
+#info .service-info{
+	padding: 20px;
+	text-align: center;
+}
+
+#info h4{
+	font-size: 20px;
+	color: var(--color-negro);
+	text-align: center;
+	font-weight: 600;
+}
+
+#info h2{
+	font-size: 30px;
+	color: var(--color-negro);
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+#info h3{
+	font-size: 15px;
+	color: #686868;
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+#info p{
+	font-size: 15px;
+	color: #686868;
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+
+
+
+
+
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+	
+}
+
+footer li a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background-color:var(--fondo-footer);
+	display: block;
+	text-align: center;
+	border-radius: 100%;
+	color: #58606b;
+	font-size: 16px;
+}
+footer li a:hover{
+	background-color: var(--fondo-footer);
+	color:#fff;
+}
+footer li a.fb:hover{
+	background-color: #3b5998;
+	color:#fff;
+}
+footer li a.ig:hover{
+	background-color: #833AB4;
+	color:#fff;
+}
+footer li a.tw:hover{
+	background-color: #1DA1F2;
+	color:#fff;
+}
+footer li a.li:hover{
+	background-color: #0e76a8;
+	color:#fff;
+}
